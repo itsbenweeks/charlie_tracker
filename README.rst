@@ -30,6 +30,9 @@ With python v3.5+ and pip, run the following in shell:
 $ cd directory/of/charlie_tracker/
 $ pip3 install .
 
+Alternatively, you can install it from github with `pip install
+git+https://github.com/itsbenweeks/charlie_tracker`.
+
 
 Features/Usage
 --------------
