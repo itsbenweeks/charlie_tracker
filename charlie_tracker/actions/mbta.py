@@ -1,6 +1,6 @@
 """Main module."""
 from charlie_tracker import config
-from charlie_tracker.lib import MBTA, MBTAEmptyResult
+from charlie_tracker.api import MBTA, MBTAEmptyResult
 
 def print_routes() -> None:
     """Calls the `/routes` endpoint and prints the `id` and `long_name` of
